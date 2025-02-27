@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Invitation Card */
+.invitation-card {
+    background: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+.header h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 28px;
+    color: #d63384;
+    margin-bottom: 5px;
+}
+
+.header h3 {
+    font-size: 22px;
+    color: #721c24;
+}
+
+/* Content */
+.content p {
+    font-size: 18px;
+    color: #444;
+    margin: 10px 0;
+}
+
+/* Event Details */
+.details {
+    background: #f8d7da;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.details p {
+    font-size: 18px;
+    color: #721c24;
+}
+
+/* Address Section */
+.address {
+    background: #e3f2fd;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.address h3 {
+    font-size: 20px;
+    color: #1a237e;
+}
+
+.address p {
+    font-size: 18px;
+    color: #444;
+}
+
+/* QR Code Section */
+.qr-section {
+    margin-top: 20px;
+}
+
+.qr-section h3 {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.qr-section img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .invitation-card {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .header h2 {
+        font-size: 24px;
+    }
+
+    .header h3 {
+        font-size: 20px;
+    }
+
+    .content p, .details p, .footer p {
+        font-size: 16px;
+    }
+
+    .qr-section img {
+        width: 120px;
+    }
+}
